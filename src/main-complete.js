@@ -10,10 +10,10 @@ function wrapper() {
   const loopThrough = () => {
 
 
-    for (let i = 0; i < thisButtonLength; i++) {
+    for (let i = 0; i < thisButtonLength * 2; i++) {
     	setTimeout(function() 
     		{ changColor();
-    	}, 3000);
+    	}, i * 1000);
 
     }
 
